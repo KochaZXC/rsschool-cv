@@ -6,7 +6,7 @@ I have learned for 6 months HTML, CSS, JS.
 
 Code exp.:
 
---------------------------------------------------------------
+```javascript
 
 let ilyaItems = ['Eye of Skadi', 'BKB', 'Boots of travel', 'Daedalus', 'MKB', 'Manta Style'];
 let ilyaDrunk = true;
@@ -26,9 +26,7 @@ if (ilyaDrunk) {
 } else {
     alert('I hate this game!');
 }
-
------------------------------------------------------------------
-the end.
+```
 
 I studied at KHNADU and I have a bachelor degree in discipline 'Road engineer'.
 Well, I've studied english for 6 month with my personal teacher and still do it. I think i am about A2-B1 level, that's what tests said.
