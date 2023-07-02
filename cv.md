@@ -1,10 +1,12 @@
-Vitalii Kochkin
-Contacts: 
-    discord: vetal6dollars;
-My goal - try myself in IT-industry, аspecialy as Frontend-developer.
-I have learned for 6 months HTML, CSS, JS. 
+1. Vitalii Kochkin
 
-Code exp.:
+2. Contacts: discord - vetal6dollars;
+
+3. My goal - try myself in IT-industry, аspecialy as Frontend-developer.
+
+4. I have learned for 6 months HTML, CSS, JS. 
+
+5. Code exp.:
 
 ```javascript
 
@@ -28,5 +30,5 @@ if (ilyaDrunk) {
 }
 ```
 
-I studied at KHNADU and I have a bachelor degree in discipline 'Road engineer'.
-Well, I've studied english for 6 month with my personal teacher and still do it. I think i am about A2-B1 level, that's what tests said.
+6. I studied at KHNADU and I have a bachelor degree in discipline 'Road engineer'.
+7. Well, I've studied english for 6 month with my personal teacher and still do it. I think i am about A2-B1 level, that's what tests said.
