@@ -1,0 +1,96 @@
+.favorites {
+    padding: 20px 60px 40px 20px;
+}
+
+.favorites-head {
+    display: flex;
+    justify-content: center;
+}
+
+.favorites-choose {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    margin-top: 60px;
+}
+
+.favorites-form {
+    display: flex;
+    gap: 90px;
+    margin-top: 40px;
+}
+
+label {
+    cursor: pointer;
+}
+
+.favorites-blocks-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px 260px;
+    margin-top: 40px;
+}
+
+.favorite-block {
+    position: relative;
+    padding: 15px 175px 15px 20px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.book-image-container {
+    position: absolute;
+    bottom: -1px;
+    right: -40px;
+}
+
+.favorite-subhead {
+    font-family: 'Forum', cursive;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.favorite-subhead::after {
+    content: '';
+    border: 1px solid var(--brown);
+    display: block;
+    width: 60px;
+}
+
+.book-name {
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.bool-description {
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.buy-btn {
+    width: 75px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    background-color: white;
+    border-radius: 2px;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.buy-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.buy-btn.own-btn:disabled{
+    border: 1px solid var(--brown);
+    color: var(--brown);
+    pointer-events: none;
+}
