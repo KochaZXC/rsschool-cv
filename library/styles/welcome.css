@@ -1,0 +1,24 @@
+.welcome {
+    background: url('../images/Welcome.png') no-repeat center center;
+    background-size: cover;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.welcome-head {
+    color: white;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.welcome-head-wrapper {
+    background-color: var(--black);
+    padding: 35px 40px;
+    max-width: 520px;
+    width: 100%;
+    text-transform: uppercase;
+}
+
