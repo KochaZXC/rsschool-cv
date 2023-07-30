@@ -12,12 +12,12 @@
     position: relative;
 }
 
-.about-head::after {
+.same-head::after {
     content: '';
     border: 1px solid var(--black);
     display: block;
     position: absolute;
-    bottom: -25%;
+    bottom: -20px;
     left: 50%;
     transform: translateX(-50%);
     width: 50px;

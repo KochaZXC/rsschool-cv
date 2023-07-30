@@ -5,6 +5,7 @@
 @import url(styles/about.css);
 @import url(styles/favorites.css);
 @import url(styles/shop.css);
+@import url(styles/contacts.css);
 
 @import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Forum&family=Inter:wght@400;700&display=swap');
@@ -38,7 +39,7 @@ h1, h2, h3 {
     border: 1px solid var(--black);
     display: block;
     position: absolute;
-    bottom: -25%;
+    bottom: -20px;
     left: 50%;
     transform: translateX(-50%);
     width: 50px;
