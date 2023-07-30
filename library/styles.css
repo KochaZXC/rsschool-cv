@@ -4,6 +4,7 @@
 @import url(styles/welcome.css);
 @import url(styles/about.css);
 @import url(styles/favorites.css);
+@import url(styles/shop.css);
 
 @import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Forum&family=Inter:wght@400;700&display=swap');
@@ -21,7 +22,7 @@ body {
     line-height: 40px;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: 'Forum', cursive;
 }
 

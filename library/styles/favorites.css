@@ -2,7 +2,7 @@
     padding: 20px 60px 40px 20px;
 }
 
-.favorites-head {
+.favorites-head, .same-head{
     display: flex;
     justify-content: center;
 }
