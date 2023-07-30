@@ -14,11 +14,12 @@
         <div class="nav-container">
             <nav class="header-navigation">
                 <ul class="header-nav-list">
-                    <li class="nav-list-item"><a href="#" class="nav-list-link">About</a></li>
-                    <li class="nav-list-item"><a href="#" class="nav-list-link">Favorites</a></li>
-                    <li class="nav-list-item"><a href="#" class="nav-list-link">Coffee shop</a></li>
-                    <li class="nav-list-item"><a href="#" class="nav-list-link">Contacts</a></li>
-                    <li class="nav-list-item"><a href="#" class="nav-list-link">Library Card</a></li>
+                    <li class="nav-list-item"><a href="#about" class="nav-list-link">About</a></li>
+                    <li class="nav-list-item"><a href="#favorites" class="nav-list-link">Favorites</a></li>
+                    <li class="nav-list-item"><a href="#coffeeshop" class="nav-list-link">Coffee shop</a></li>
+                    <li class="nav-list-item"><a href="#contacts" class="nav-list-link">Contacts</a></li>
+                    <li class="nav-list-item"><a href="#library-card" class="nav-list-link">Library Card</a></li>
+                </ul>
             </nav>
             <div class="icon-wrapper">
                 <img src="images/icon_profile.png" alt="profile-icon" class="profile-icon">
@@ -32,19 +33,19 @@
                     to the Brooklyn <br> Library</h2>
             </div>
         </section>
-        <section class="about">
+        <section class="about" id="about">
             <h2 class="about-head same-head">About</h2>
             <p class="about-text">The Brooklyn Library is a free workspace, a large number of books and a cozy coffee
                 shop inside </p>
             <div class="about-slider-container">
                 <div class="about-image-block">
-                    <img src="images/image 1.png" alt="slider-image-1" class="about-image">
+                    <img src="images/image1.png" alt="slider-image-1" class="about-image">
                 </div>
                 <div class="about-image-block">
-                    <img src="images/image 2.png" alt="slider-image-2" class="about-image">
+                    <img src="images/image2.png" alt="slider-image-2" class="about-image">
                 </div>
                 <div class="about-image-block">
-                    <img src="images/image 3.png" alt="slider-image-3" class="about-image">
+                    <img src="images/image3.png" alt="slider-image-3" class="about-image">
                 </div>
             </div>
             <div class="panation-container">
@@ -59,7 +60,7 @@
                 </div>
             </div>
         </section>
-        <section class="favorites">
+        <section class="favorites" id="favorites">
             <h2 class="favorites-head same-head">Favorites</h2>
             <p class="favorites-choose">Pick favorites of season</p>
             <form class="favorites-form">
@@ -154,7 +155,7 @@
                 </div>
             </div>
         </section>
-        <section class="coffeeshop">
+        <section class="coffeeshop" id="coffeeshop">
             <h2 class="coffeeshop-head same-head">Coffee Shop</h2>
             <p class="shop-text">In our library, we have of cozy coffee shop, welcoming in customers with frothy
                 cappuccinos and friendly conversation.
@@ -233,23 +234,23 @@
                 </div>
             </div>
         </section>
-        <section class="contacts">
+        <section class="contacts" id="contacts">
             <h2 class="contacts-head same-head">Our Contacts</h2>
             <div class="contacts-wrapper">
                 <div class="contacts-info-wrapper">
                     <span class="contacts-span">For all Library inquiries:</span>
                     <ul class="contacts-list">
-                        <li class="contacts-list-item">Please call <a href="tel:(617) 730-2370" class="phone-link">(617)
+                        <li class="contacts-list-item">Please call <a href="tel:(617)730-2370" class="phone-link">(617)
                                 730-2370</a></li>
-                        <li class="contacts-list-item">For TTY service, please call <a href="tel:(617) 730-2370"
+                        <li class="contacts-list-item">For TTY service, please call <a href="tel:(617)730-2370"
                                 class="phone-link">(617) 730-2370</a></li>
-                        <li class="contacts-list-item">Putterham Library: <a href="tel:(617) 730-2385"
+                        <li class="contacts-list-item">Putterham Library: <a href="tel:(617)730-2385"
                                 class="phone-link">(617) 730-2385</a></li>
                     </ul>
                     <div class="contacts-senior-staff">
                         <span class="contacts-span">Senior Staff</span>
                         <p class="contacts-director">Library Director: <a href="mailto:AmandaHirst@gmail.com"
-                                class="contacts-mail-link">Amanda Hirst</a></p>
+                                class="contacts-mail-link" target="_blank">Amanda Hirst</a></p>
                     </div>
                 </div>
                 <div class="map-wrapper">
@@ -257,7 +258,7 @@
                 </div>
             </div>
         </section>
-        <section class="library-card">
+        <section class="library-card" id="library-card">
             <h2 class="library-head same-head">Digital Library Cards</h2>
             <div class="library-block-wrapper">
                 <div class="library-card-wrapper">
@@ -265,8 +266,8 @@
                     <div class="card-wrapper">
                         <form class="card">
                             <div class="card-name-wrapper">
-                            <span class="card-name">Brooklyn Public Library</span>
-                        </div>
+                                <span class="card-name">Brooklyn Public Library</span>
+                            </div>
                             <input type="text" class="data-input first" placeholder="Reader's name ">
                             <input type="number" class="data-input second" placeholder="Card number">
                         </form>
@@ -287,7 +288,40 @@
             </div>
         </section>
     </main>
-    <footer class="footer"></footer>
+    <footer class="footer">
+        <div class="footer-top-wrapper">
+            <div class="footer-block">
+                <a href="https://www.google.com/maps/search/286+Cadman+Plaza,+New+York,+NY+11238,+United+States/@40.6956337,-73.9928847,17z/data=!3m1!4b1?entry=ttu"
+                    class="footer-top-link" target="_blank">286 Cadman Plaza, New York, NY 11238, United States</a>
+                <ul class="footer-list">
+                    <li class="footer-list-element">
+                        <a href="https://twitter.com" class="footer-list-link" target="_blank">
+                            <img src="icons/u_twitter-alt.png" alt="" class="footer-icons">
+                        </a>
+                    </li>
+                    <li class="footer-list-element">
+                        <a href="https://www.instagram.com/" class="footer-list-link" target="_blank">
+                            <img src="icons/u_instagram.png" alt="" class="footer-icons">
+                        </a>
+                    </li>
+                    <li class="footer-list-element">
+                        <a href="https://uk-ua.facebook.com/" class="footer-list-link" target="_blank">
+                            <img src="icons/u_facebook-f.png" alt="" class="footer-icons">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-block-time">
+                <span class="footer-time">Mon - Fri <br> 08:00 am - 07:00 pm</span>
+                <span class="footer-time">Sat - Sun <br> 10:00 am - 06:00 pm</span>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span class="year">2023</span>
+            <a href="https://app.rs.school/" class="footer-link" target="_blank">The Rolling Scopes School</a>
+            <a href="https://github.com/KochaZXC" class="footer-link" target="_blank">KochaZXC</a>
+        </div>
+    </footer>
     <script src="index.js"></script>
 </body>
 
