@@ -1,9 +1,8 @@
-
 .header {
+    background-color: var(--black);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--black);
     padding: 20px;
 }
 
@@ -28,11 +27,13 @@
     font-size: 20px;
     line-height: 50px;
     cursor: pointer;
+  scroll-behavior: smooth;
 }
 
 .nav-list-link {
     color: white;
     transition: 0.3s ease-in-out;
+    scroll-behavior: smooth;
 }
 
 
