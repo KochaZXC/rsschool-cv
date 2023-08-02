@@ -1,5 +1,5 @@
 .favorites {
-    padding: 20px 60px 40px 20px;
+    padding: 20px 20px 40px 20px;
 }
 
 .favorites-head, .same-head{
@@ -29,6 +29,7 @@ label {
     grid-template-columns: repeat(2, 1fr);
     gap: 40px 260px;
     margin-top: 40px;
+    padding-right: 40px;
 }
 
 .favorite-block {
@@ -85,8 +86,8 @@ label {
 }
 
 .buy-btn:hover {
-    background-color: black;
-    color: white;
+    background-color: var(--brown);
+    border-color: var(--brown);
 }
 
 .buy-btn.own-btn:disabled{

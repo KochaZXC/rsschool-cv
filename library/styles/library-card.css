@@ -79,12 +79,8 @@
 }
 
 .check-btn:hover {
-    background-color: var(--black);
-    color: white;
-}
-
-.check-btn:active {
-    font-size: 18px;
+    background-color: var(--brown);
+    border-color: var(--brown);
 }
 
 .sign-up-wrapper {
@@ -132,6 +128,6 @@
 
 .sign-btn:hover,
 .log-btn:hover {
-    background-color: var(--black);
-    color: white;
+    background-color: var(--brown);
+    border-color: var(--brown);
 }
