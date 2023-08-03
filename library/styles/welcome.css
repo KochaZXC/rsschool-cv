@@ -1,10 +1,9 @@
 
 .welcome {
+    padding-top: 220px;
     background: url('../images/Welcome.png') no-repeat center center;
     background-size: cover;
     min-height: 600px;
-    display: flex;
-    align-items: center;
 }
 
 .welcome-head {
