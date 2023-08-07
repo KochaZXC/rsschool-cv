@@ -1,0 +1,133 @@
+.library-card {
+    padding: 20px 20px 40px;
+}
+
+
+.library-block-wrapper {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.library-subhead {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 2%;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--brown);
+    padding: 20px;
+}
+
+.card-wrapper {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid var(--brown);
+    padding: 20px 20px 30px;
+    box-shadow: 0px 5px 5px rgb(165, 165, 165);
+}
+
+.card-name {
+    font-family: 'Forum', cursive;
+    font-size: 30px;
+    line-height: 50px;
+    letter-spacing: 2%;
+    margin-bottom: 20px;
+}
+
+.data-input.first {
+    margin-bottom: 25px;
+}
+
+.data-input {
+    width: 520px;
+    height: 66px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    padding-left: 20px;
+}
+
+.data-input::placeholder {
+    font-family: 'Forum', cursive;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 50px;
+    letter-spacing: 2%;
+    padding: 8px 0 8px;
+}
+
+.check-btn {
+    margin-top: 20px;
+    background-color: white;
+    width: 242px;
+    height: 44px;
+    border-radius: 2px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.check-btn:hover {
+    background-color: var(--brown);
+    border-color: var(--brown);
+}
+
+.sign-up-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+}
+
+.geting-card {
+    font-size: 30px;
+    line-height: 33px;
+    letter-spacing: 2%;
+    font-family: 'Forum', cursive;
+}
+
+.card-text {
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 2%;
+    max-width: 456px;
+    text-align: end;
+    margin-top: 35px;
+}
+
+.card-btn-container {
+    margin-top: 35px;
+}
+
+.sign-btn,
+.log-btn {
+    padding: 9px 16px;
+    background-color: white;
+    border-radius: 2px;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.sign-btn {
+    margin-right: 20px;
+}
+
+.sign-btn:hover,
+.log-btn:hover {
+    background-color: var(--brown);
+    border-color: var(--brown);
+}
