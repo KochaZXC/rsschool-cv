@@ -7,6 +7,10 @@
     justify-content: center;
 }
 
+.favorites-radio-input {
+    margin-right: 20px;
+}
+
 .favorites-choose {
     font-weight: 700;
     font-size: 20px;
@@ -94,4 +98,16 @@ label {
     border: 1px solid var(--brown);
     color: var(--brown);
     pointer-events: none;
+}
+
+
+@media (max-width: 768px) {
+    .favorites-blocks-wrapper {
+        display: grid;
+        grid-template-columns: none;
+        gap: 40px;
+        margin-top: 40px;
+        padding: 0px 70px 0px 70px;
+    }
+
 }

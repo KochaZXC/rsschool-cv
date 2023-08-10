@@ -62,3 +62,8 @@
     object-fit: contain;
 }
 
+@media (max-width: 768px) {
+    .header-nav-list {
+        display: none;
+    }
+}

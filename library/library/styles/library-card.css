@@ -131,3 +131,20 @@
     background-color: var(--brown);
     border-color: var(--brown);
 }
+
+@media (max-width: 768px) {
+    .library-block-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-text {
+        text-align: center;
+    }
+
+    .sign-up-wrapper {
+        margin-top: 20px;
+        align-items: center;
+    }
+}

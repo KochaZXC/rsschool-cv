@@ -39,7 +39,7 @@
 }
 
 .menu-item-price::before {
-    content:'';
+    content: '';
     border: 1px solid var(--brown);
     display: block;
     width: 100px;
@@ -73,6 +73,58 @@
 .menu-head.deserts {
     text-align: end;
 }
+
 .menu-item-price.deserts {
     text-align: end;
+}
+
+@media (max-width: 768px) {
+    .menu-wrapper {
+        display: block;
+        margin-top: 40px;
+    }
+
+    .menu-item {
+        display: flex;
+        flex-grow: 1;
+        justify-content: start;
+        column-gap: 0;
+    }
+
+    .menu-list.drinks {
+        width: 60%;
+    }
+
+    .menu-item.drinks {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu-item-price::before {
+        right: 80px;
+    }
+
+    .menu-item-price {
+        margin-left: none;
+    }
+
+    .menu-item.deserts {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu-list.deserts {
+        width: 65%;
+    }
+
+    .menu-block.deserts {
+        flex-direction: column;
+        display: flex;
+        align-items: end;
+    }
+
+    .menu-item-name-wrap {
+        margin-right: 170px;
+    }
+
 }
