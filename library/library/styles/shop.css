@@ -78,53 +78,41 @@
     text-align: end;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .menu-wrapper {
-        display: block;
-        margin-top: 40px;
-    }
-
-    .menu-item {
         display: flex;
-        flex-grow: 1;
-        justify-content: start;
-        column-gap: 0;
+        flex-direction: column;
     }
 
-    .menu-list.drinks {
-        width: 60%;
-    }
-
-    .menu-item.drinks {
+    .menu-block.drinks {
         display: flex;
-        justify-content: space-between;
-    }
-
-    .menu-item-price::before {
-        right: 80px;
-    }
-
-    .menu-item-price {
-        margin-left: none;
-    }
-
-    .menu-item.deserts {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .menu-list.deserts {
-        width: 65%;
+        flex-direction: column;
+        align-items: start;
     }
 
     .menu-block.deserts {
-        flex-direction: column;
         display: flex;
+        flex-direction: column;
         align-items: end;
     }
+}
 
-    .menu-item-name-wrap {
-        margin-right: 170px;
+@media (max-width: 768px) {
+    .menu-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu-block.drinks {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .menu-block.deserts {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
     }
 
 }

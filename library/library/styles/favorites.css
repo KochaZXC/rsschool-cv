@@ -100,6 +100,31 @@ label {
     pointer-events: none;
 }
 
+@media (max-width: 1024px) {
+    .favorites-blocks-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px 60px;
+        margin-top: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media (max-width: 900px) {
+    .favorites-blocks-wrapper {
+        display: grid;
+        grid-template-columns: none;
+        gap: 40px;
+        margin-top: 40px;
+        padding: 0px 70px 0px 70px;
+    }
+
+    .favorite-block {
+        min-height: 400px;
+    }
+
+}
+
 
 @media (max-width: 768px) {
     .favorites-blocks-wrapper {
@@ -108,6 +133,10 @@ label {
         gap: 40px;
         margin-top: 40px;
         padding: 0px 70px 0px 70px;
+    }
+
+    .favorite-block {
+        min-height: 550px;
     }
 
 }
