@@ -140,3 +140,9 @@ label {
     }
 
 }
+
+@media (max-width: 680px) {
+    .favorites-radio-input {
+        margin-right: 0;
+    }
+}
