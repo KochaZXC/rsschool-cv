@@ -65,3 +65,17 @@
     color: white;
     letter-spacing: 2px;
 }
+
+@media (max-width: 768px) {
+    .footer {
+        padding: 15px 20px 44px;
+    }
+
+    .footer-list {
+        margin-top: 10px;
+    }
+
+    .footer-bottom {
+        margin-top: 67px;
+    }
+}

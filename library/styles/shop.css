@@ -115,4 +115,24 @@
         align-items: end;
     }
 
+    .coffeeshop {
+        padding: 25px 20px 40px;
+    }
+
+    .menu-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 40px;
+        column-gap: 180px;
+    }
+
+    .menu-item-price::before {
+        right: 85px;
+    }
+
+    .menu-block.deserts {
+        margin-top: 40px;
+    }
+
 }

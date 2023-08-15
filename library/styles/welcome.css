@@ -22,3 +22,12 @@
     text-transform: uppercase;
 }
 
+
+
+@media (max-width: 768px) {
+    .welcome-head-wrapper {
+        max-width: 596px;
+    }
+
+    
+}
