@@ -167,4 +167,24 @@
         align-items: center;
     }
 
+    .card-name {
+        font-size: 32px;
+    }
+
+    .check-btn {
+        margin-top: 23px;
+    }
+
+    .geting-card {
+        font-size: 31px;
+    }
+
+    .card-text {
+        margin-top: 38px;
+    }
+
+    .sign-btn {
+        margin-right: 15px;
+    }
+
 }

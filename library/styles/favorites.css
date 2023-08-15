@@ -70,7 +70,7 @@ label {
     letter-spacing: 2px;
 }
 
-.bool-description {
+.book-description {
     font-size: 15px;
     letter-spacing: 2px;
 }
@@ -130,15 +130,52 @@ label {
     .favorites-blocks-wrapper {
         display: grid;
         grid-template-columns: none;
-        gap: 40px;
-        margin-top: 40px;
-        padding: 0px 70px 0px 70px;
+        gap: 38px;
+        margin-top: 30px;
+        padding: 0px 110px 0px 70px;
     }
 
     .favorite-block {
         min-height: 550px;
     }
 
+    .favorites-form {
+        gap: 90px;
+        margin-top: 33px;
+    }
+
+    label {
+        cursor: pointer;
+        font-size: 20px;
+    }
+
+    .book-name {
+        font-size: 15px;
+        margin-top: 16px;
+    }
+
+    .book-name-wrapper {
+        margin-top: 5px;
+    }
+        
+    .favorite-block {
+        position: relative;
+        padding: 15px 170px 15px 18px;
+    }
+
+    .book-headline {
+        text-transform: uppercase;
+    }
+
+    .book-description {
+        font-size: 15px;
+        margin-top: 20px;
+        letter-spacing: 2px;
+    }
+
+    .buy-btn {
+        margin-top: 20px;
+    }
 }
 
 @media (max-width: 680px) {
